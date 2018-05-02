@@ -32,6 +32,7 @@ public class ProgressStatusHandler extends JFrame implements ActionListener {
 	MavenCommandExecuter cmd= new MavenCommandExecuter();
 	public ProgressStatusHandler(MavenBuilderMain main) {
 		mainProgram=main;
+		
 
 		dlg= new JDialog(mainProgram, "Progress Dialog", true);
 		JProgressBar dpb = new JProgressBar(0,500);
